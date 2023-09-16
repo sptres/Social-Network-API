@@ -4,7 +4,7 @@ const apiRoutes = require('./api');
 router.use('/api', apiRoutes);
 
 router.use((req, res) => {
-    return res.send('The route does not exist!');
+  return res.send('The route does not exist!');
 });
 
 module.exports = router;
